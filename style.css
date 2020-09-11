@@ -5,6 +5,7 @@
 }
 html {
   font-size: 62.5%;
+  background-color: lightgrey;
 }
 
 .clear {
@@ -47,8 +48,8 @@ nav li {
   margin: 0rem 3rem;
 }
 .hero-section {
-  background-image: url("./img1.jpg");
-  height: 70rem;
+  background-image: url("./pexels-magnus-martinsen-706194.jpg");
+  height: 150rem;
   width: 100%;
   background-position: top;
   background-size: cover;
@@ -78,7 +79,12 @@ form input,
 form textarea {
   margin: 2rem auto;
   font-size: 2rem;
+  border: none;
 }
 form button {
-  margin-bottom: 5rem:
+  margin-top: 4rem;
+  padding: 2rem 6rem;
+  border: none;
+  background: lightskyblue;
+  cursor: pointer;
 }
